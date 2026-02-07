@@ -1,89 +1,68 @@
-🍱 GHAR KA TIFFIN – MERN Stack Web Application
-📌 Project Overview
+# 🍱 GHAR KA TIFFIN – MERN Stack Web Application
 
-Ghar Ka Tiffin ek MERN Stack based web application hai jo home-made tiffin services ko users ke saath digitally connect karta hai.
-Ye platform students, working professionals aur bachelors ko healthy, affordable aur ghar jaisa khana easily order karne me madad karta hai.
+## 📌 Project Overview
+Ghar Ka Tiffin is a MERN Stack based web application that connects home-made tiffin providers with customers such as students, working professionals, and bachelors. The application provides a simple and reliable way to order healthy, home-style food online.
 
-🎯 Project Objectives
+## 🎯 Objectives
+- Digitize home-made tiffin services  
+- Provide easy daily tiffin ordering  
+- Connect customers and vendors on one platform  
+- Ensure secure login and data handling  
+- Offer a responsive and user-friendly interface  
 
-Home-made food services ko digital platform dena
+## 🧩 Technology Stack
+- Frontend: React.js, HTML, CSS, JavaScript  
+- Backend: Node.js, Express.js  
+- Database: MongoDB  
+- Tools: VS Code, Git, GitHub  
+- Authentication: JWT  
 
-Daily tiffin booking & management system
+## ✨ Features
+- User Registration and Login  
+- Daily Menu Display  
+- Online Tiffin Ordering  
+- Order Tracking  
+- Admin / Vendor Dashboard  
+- Secure Authentication  
+- Responsive Design  
 
-Easy communication between customers & vendors
-
-Secure authentication system
-
-User-friendly and responsive UI
-
-🧩 Technology Stack (MERN)
-Frontend: React.js, HTML5, CSS3, JavaScript
-Backend: Node.js, Express.js
-Database: MongoDB
-Tools & Libraries:
-Mongoose
-JWT Authentication
-Axios
-Git & GitHub
-VS Code
-
-✨ Key Features
-
-👤 User Registration & Login (JWT based)
-🍽️ Daily Menu Display
-🛒 Online Tiffin Ordering
-📦 Order Tracking System
-🧑‍🍳 Admin / Vendor Dashboard
-🔐 Secure Authentication & Authorization
-📱 Fully Responsive Design
-
-📂 Project Structure
+## 📂 Project Structure
 Ghar-Ka-Tiffin/
-│── client/              # React Frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── App.js
-│
-│── server/              # Node + Express Backend
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── config/
-│   └── server.js
-│
-│── .env
-│── package.json
-│── README.md
+- client/ (React Frontend)
+- server/ (Node + Express Backend)
+- models/
+- routes/
+- controllers/
+- .env
+- package.json
+- README.md
 
-⚙️ How to Run the Project (Locally)
-🔹 Backend Setup
-cd server
-npm install
-npm start
+## ⚙️ How to Run the Project
+1. Clone the repository  
+   git clone https://github.com/your-username/ghar-ka-tiffin.git  
 
-🔹 Frontend Setup
-cd client
-npm install
-npm start
+2. Backend setup  
+   cd server  
+   npm install  
+   npm start  
 
-🌐 Application URL
-http://localhost:3000/
+3. Frontend setup  
+   cd client  
+   npm install  
+   npm start  
 
-🗄️ Environment Variables
+4. Open in browser  
+   http://localhost:3000/
 
+## 🗄️ Environment Variables
 Create a .env file in server folder:
+- MONGO_URI=your_mongodb_connection_string  
+- JWT_SECRET=your_secret_key  
+- PORT=5000  
 
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-PORT=5000
+## 🚀 Future Enhancements
+- Online payment integration  
+- Monthly subscription plans  
+- Mobile application  
+- Ratings and reviews  
 
-🚀 Future Enhancements
-
-Online payment gateway
-Monthly subscription plans
-
-Vendor rating & reviews
-
-Mobile application (React Native)
